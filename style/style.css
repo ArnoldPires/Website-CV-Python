@@ -1,0 +1,27 @@
+/*Style inputs with type="text", select elements and textareas */
+input[type=message], input[type=email], input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*When moving the mouse over the submut button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #45A049;
+}
+/*Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
